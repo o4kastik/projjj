@@ -1,0 +1,231 @@
+.contact_us_2 * {
+    font-family: Nunito, sans-serif;
+}
+
+.contact_us_2 .text-blk {
+    margin: 0;
+    line-height: 25px;
+}
+
+.contact_us_2 .responsive-cell-block {
+    min-height: 50px;
+}
+
+.contact_us_2 input:focus,
+.contact_us_2 textarea:focus {
+    outline: none;
+}
+
+.contact_us_2 .container-block {
+    min-height: 50px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+.contact_us_2 .submit-btn:hover {
+    background-color: #788787;
+}
+
+.contact_us_2 .responsive-container-block {
+    min-height: 50px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto 50px;
+    padding: 0;
+}
+
+.contact_us_2 .responsive-container-block.big-container {
+    padding: 10px 30px;
+    position: relative;
+    height: auto;
+}
+
+.contact_us_2 .responsive-container-block.container {
+    position: static;
+    min-height: 50px;
+    flex-direction: column;
+    z-index: 2;
+    max-width: 800px;
+    margin: 120px auto 50px;
+}
+
+.contact_us_2 .container-block.form-wrapper {
+    background-color: white;
+    max-width: 799px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.contact_us_2 .text-blk.contactus-head {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #788787;
+}
+
+.contact_us_2 .text-blk.contactus-subhead {
+    color: #A3AEAE;
+    margin: 0;
+}
+
+.contact_us_2 .responsive-cell-block {
+    margin: 0;
+    min-height: 50px;
+}
+
+.contact_us_2 input,
+.contact_us_2 textarea,
+.contact_us_2 select {
+    width: calc(100% - 30px);
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #A3AEAE;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+.contact_us_2 select {
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#A3AEAE"><path d="M10 12L5 7h10z"/></svg>') no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 20px;
+}
+
+.contact_us_2 textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.contact_us_2 .submit-btn {
+    width: calc(100% - 30px);
+    background-color: #788787;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact_us_2 .social-media-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contact_us_2 .link-img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact_us_2 .text-blk.input-title {
+    text-align: left;
+    padding: 0 0 5px 10px;
+    font-size: 14px;
+    color: #A3AEAE;
+    font-weight: 800;
+}
+
+.contact_us_2 ::placeholder {
+    color: #dadada;
+}
+
+.contact_us_2 .blueBG {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 300px;
+    background-color: #A3AEAE;
+}
+
+@media (max-width: 768px) {
+    .contact_us_2 .submit-btn,
+    .contact_us_2 input,
+    .contact_us_2 textarea,
+    .contact_us_2 select {
+        width: 100%;
+    }
+
+    .contact_us_2 .container-block.form-wrapper {
+        padding: 50px 15px;
+        margin: 80px auto 0;
+    }
+
+    .contact_us_2 .responsive-cell-block {
+        margin-bottom: 15px;
+    }
+
+    .contact_us_2 .responsive-container-block {
+        margin-bottom: 35px;
+    }
+
+    .contact_us_2 .text-blk.input-title {
+        padding: 0;
+    }
+
+    .contact_us_2 .responsive-container-block.container {
+        margin-top: 80px;
+    }
+
+    .contact_us_2 .container-block.form-wrapper {
+        margin: 0;
+    }
+
+    .contact_us_2 .text-blk.contactus-head {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact_us_2 .container-block.form-wrapper {
+        padding: 50px 15px;
+        margin: 60px auto 0;
+    }
+
+    .contact_us_2 .responsive-cell-block {
+        margin-bottom: 10px;
+    }
+
+    .contact_us_2 .responsive-container-block {
+        margin-bottom: 20px;
+    }
+
+    .contact_us_2 .text-blk.input-title {
+        font-size: 12px;
+    }
+
+    .contact_us_2 .responsive-container-block.container {
+        margin-top: 50px;
+    }
+
+    .contact_us_2 .container-block.form-wrapper {
+        margin: 0;
+    }
+
+    .contact_us_2 .responsive-container-block.big-container {
+        padding: 10px 20px;
+    }
+
+    .contact_us_2 .text-blk.contactus-head {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .contact_us_2 input,
+    .contact_us_2 textarea {
+        height: 40px;
+    }
+}
